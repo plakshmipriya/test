@@ -137,11 +137,22 @@ li>a {
     -o-background-size: 10px 100%;
     background-size: 10px 100%;
 }
-
+li>a.tappable-active {
+    color: #fff;
+    background-color: #4286f5;
+}
 li>a * {
     pointer-events: none;
 }
-
+.scroll {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 84px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
 .button {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
